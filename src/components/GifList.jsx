@@ -13,7 +13,6 @@ function GifList({ gifList }) {
     return (
       <div className="gif">
         <h4>Que estás esperando!!</h4>
-        <img src="src/assets/giphy.gif"></img>
       </div>
     );
   }
