@@ -29,7 +29,7 @@ function App() {
       {loading ? (
         <Loading Loading={loading} />
       ) : (
-        <div>
+        <div className="container">
           <h1>unico<span className="cg">dev</span> Gifs</h1>
           <input
             type="text"
@@ -39,6 +39,7 @@ function App() {
             onChange={(e) => {
               setText(e.target.value);
             }}
+           autoFocus
             value={text}
           />
           <a className="cg" href="https://unicodev.com.ar/" target="_blank">unicodev.com.ar</a>
