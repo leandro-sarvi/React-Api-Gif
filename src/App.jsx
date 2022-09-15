@@ -29,7 +29,8 @@ function App() {
       {loading ? (
         <Loading Loading={loading} />
       ) : (
-        <div className="container">
+        <div>
+          <div className="container">
           <h1>unico<span className="cg">dev</span> Gifs</h1>
           <input
             type="text"
@@ -43,9 +44,10 @@ function App() {
             value={text}
           />
           <a className="cg" href="https://unicodev.com.ar/" target="_blank">unicodev.com.ar</a>
-          <div className="container-images">
-            <GifList gifList={gifList} />
           </div>
+        <div className="container-images">
+          <GifList gifList={gifList} />
+        </div>
         </div>
       )}
     </>
