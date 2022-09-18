@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import GifList from "./components/GifList";
 import Loading from "./components/Loading";
-import { BiTrendingUp } from 'react-icons/bi';
+import { AiTwotoneThunderbolt } from 'react-icons/ai';
 import useFetchTrending from "./utils/useFetchTrending";
 import useFetchArtist from "./utils/useFetchArtist";
 import "./App.css";
@@ -40,7 +40,7 @@ function App() {
           <h1>unico<span className="cg">dev</span> Gifs</h1>
           <input
             type="text"
-            placeholder="🔎 Busca tu GIF"
+            placeholder="Busca tu GIF"
             name=""
             id=""
             onChange={(e) => {
@@ -52,7 +52,7 @@ function App() {
           <a className="cg" href="https://unicodev.com.ar/" target="_blank">unicodev.com.ar</a>
           </div>
           <div className="container-slider">
-            <h3><BiTrendingUp />Trending</h3>
+            <h3><AiTwotoneThunderbolt /> Trending</h3>
           <div className="slider">
           <GifList gifList={trending} />
           </div>

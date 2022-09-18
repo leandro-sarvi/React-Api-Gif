@@ -28,7 +28,6 @@ body{
   align-items: center;
 }
 .container-images{
-  height: inherit;
   margin-top: 1rem;
 }
 a{
