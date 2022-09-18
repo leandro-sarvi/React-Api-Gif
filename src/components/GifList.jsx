@@ -4,7 +4,7 @@ function GifList({ gifList, text }) {
   if (text==="") {
     return (
       <>
-      <h2>Que estas esperando!!</h2>
+      <h3>Que estas esperando!!</h3>
         
       </>
     );

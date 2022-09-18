@@ -34,9 +34,8 @@ function App() {
       {loading ? (
         <Loading Loading={loading} />
       ) : (
-       
          <>
-          <div className="container">
+          <div className="main-container">
           <h1>unico<span className="cg">dev</span> Gifs</h1>
           <input
             type="text"
