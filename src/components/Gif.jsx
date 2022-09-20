@@ -1,10 +1,10 @@
-import React from "react";
-
+import Img from "./Img";
 function Gif({ url }) {
   return (
     <div>
       <a href={url} target="_blank">
-        <img src={url}></img>
+       
+        <Img url={url}/>
       </a>
     </div>
   );
